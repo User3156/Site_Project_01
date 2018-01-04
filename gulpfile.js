@@ -177,7 +177,7 @@ gulp.task('dist', function () {
 gulp.task('build', gulp.parallel('html', 'cssCommon', 'jsCommon', 'cssVendor', 'jsVendor', 'fontsVendor'));
 
 // Таск для разработки (development task):
-gulp.task('default', gulp.series('build', 'serve'));
+gulp.task('default', gulp.series('build'));
 
 // Таск для production (production task):
 gulp.task('public', gulp.series('clean', 'img', 'dist'));
