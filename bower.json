@@ -1,0 +1,24 @@
+{
+  "name": "project_site_01",
+  "description": "Project_Site_01",
+  "main": "index.js",
+  "authors": [
+    "User3156"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/User3156/Site_Project_01",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^7.0.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
